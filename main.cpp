@@ -18,19 +18,35 @@ using std::getline;
 
 int main()
 {
+	address a; 
 
+	a.address_line1 = "123 Main St";
+	a.address_line2 = "Apt 4";
+	a.city = "Auburn";
+	a.state = "AL";
+	a.zip = "12345";
+
+	cout << a.address_info() << endl;
+
+	return 0;
+	
 	//import from text files
 
-	//add to store and other variables
 
-	//print store info after you finish importing info
-	//from text files and add them to your store
-	cout << "Store info: " << endl << endl;
-	cout << store1.store_info() << endl << endl;
+    //add to store and other variables
 
-	//make random number of random transactions
 
-	//print store info at the end
-	cout << "Store info: " << endl << endl;
-	cout << store1.store_info() << endl << endl;
+    //print store info after you finish importing info
+    //from text files and add them to your store
+    cout << "Store info: " << endl << endl;
+    cout << store1.store_info() << endl << endl;
+
+
+    //make random number of random transactions
+
+
+    //print store info at the end
+    cout << "Store info: " << endl << endl;
+    cout << store1.store_info() << endl << endl;
+	
 }
